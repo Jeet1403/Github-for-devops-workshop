@@ -1,0 +1,20 @@
+# to initialize the git
+git initialize/ git init
+
+# to check the git status
+git status
+
+# TO add the file in the git, so it will move file from untrack to staging
+git add <file-name>
+or
+# to add mutiple files in one go
+git add . 
+
+# to revert the file from staging to untrack
+git restore --staged <file-name>
+
+# To move file from staging to tracked
+git commit -m "<need to write the message>"
+
+# To retrieve deleted file from git need to use below
+git restore <file-name>
